@@ -1,0 +1,55 @@
+<?php include_once("php/header.php");
+include_once("banner/banner.php");
+?>
+
+<header class="page-header header container-fluid">
+</header>
+
+<div class="description">
+	<h1>Goosebumps</h1>
+    <h2>Come Standard</h2>
+	<p>Discover the benefits of DRIVECLUB Trade-in and get a free vehicle evaluation.</p>
+    <button>Contact us</button>
+</div>
+
+<div class="ferrari-main">
+
+    <div id="ferrari-image">
+        <img src="img/car-1.jpg">
+    </div>
+
+    <div id="ferrari-text">
+        <div id="ferrari-inside">
+            <h3>New Range</h3>
+            <h2>La Ferrari</h2>
+            <p id="new-button">Learn More</p>
+        </div>
+    </div>
+
+
+   
+    <?php include_once("popup-pages/ferrari-popup.php");
+?>
+ </div>
+<!-- End of Ferrari -->
+
+<div class="model-main"> 
+    <div id="model-image">
+        <img src="img/car-2.jpg">
+    </div>
+
+    <div id="model-text">
+        <div id="model-inside">
+            <h3>New Range</h3>
+            <h2>Model S</h2>
+            <p id="new-button">Learn More</p>
+        </div>
+    </div>
+    
+
+</div>
+
+
+<?php
+include_once("php/footer.php");
+?>
